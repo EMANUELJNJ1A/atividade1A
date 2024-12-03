@@ -1,1 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+}
 
+.chamada{
+    background: #b89cd5;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+img {
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
